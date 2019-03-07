@@ -1,0 +1,96 @@
+/******************** carousel ***************/
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body{
+    background-image: url("https://images.wallpaperscraft.com/image/raven_bird_flying_smoke_black_white_92907_1680x1050.jpg");
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* **** marge de la barrenav ***********/
+
+#marge-card{
+    margin-top: 20px;
+}
+
+
+/********************** opacity *************/
+.card-img-top:hover {
+    opacity: 1;
+}
+
+img.card-img-top{
+    opacity: 0.5;
+}
+
+/***  colors ***/
+span.orange{
+    color: orange;
+}
+
+.black{
+    background-color: black; 
+    position:absolute;
+    top:40px;
+    left:10%;
+    font-size: 2em;
+    color: white;
+    opacity: 0.7;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+.blackred{
+    background-color: black; 
+    position:absolute;
+    top:50px;
+    left:5%;
+    font-size: 2em;
+    opacity: 0.7;
+    color: red;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+/*  */
+h1{
+    position:absolute;
+    top:269px;
+    left:25%;
+    
+}
+
+.card:hover h1{
+    color: white;
+    font-size: 2em;
+    left: 25%;
+    top: 66%;
+    
+
+}
+
+.card:hover .black{
+    display: none;
+}
+.card:hover .blackred{
+    display: none;
+}
+
+section{
+    padding: 5%
+}
+
+#contactus{
+    margin-bottom: 5%;
+}
+
+/****************** hover*********************/
+
